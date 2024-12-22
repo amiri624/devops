@@ -1,6 +1,5 @@
 # how can we set ip?
 
-
 ```bash 
 cd /etc/netplan/
 ```
