@@ -13,4 +13,4 @@ vim (user name)
 (user name) ALL=(ALL) NOPASSWD:ALL
 ```
 #### save an back. :wq
-
+~~meisam~~
