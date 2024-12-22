@@ -29,7 +29,8 @@ external_url http://192.168.---.--
 ```bash
 sudo gitlab-ctl reconfigure
 ```
-````bash
+```bash
 sudo cat /etc/gitlab/initial_root_password
+
 ```
 ~~Meisam Amiri~~
