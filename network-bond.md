@@ -143,3 +143,4 @@ ip a
 ```bash
 ping google.com -c 4
 ```
+~~meisam~~
