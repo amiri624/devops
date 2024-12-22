@@ -10,18 +10,15 @@ sudo -s
 # dpkg -i zabbix-release_latest+ubuntu22.04_all.deb
 # apt update
 ```
-
 ### Third: Install Zabbix server, frontend, agent
 ```bash
 # apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent
 ```
-
 ### Fourth: Install sql server
 ```bash
 # sudo apt-get install mysql-server
 # sudo systemctl start mysql
 ```
-
 ### Fifth: Create initial database
 ```bash
 # sudo mysql
@@ -49,14 +46,12 @@ mysql> quit;
 # sudo vim/etc/zabbix/zabbix_server.conf
 DBPassword=password
 ```
-
 ### Ninth: Start Zabbix server and agent processes
 #### Start Zabbix server and agent processes and make it start at system boot.
 ```bash
 # systemctl restart zabbix-server zabbix-agent apache2
 # systemctl enable zabbix-server zabbix-agent apache2
 ```
-
 ### And finally: Open Zabbix UI web page
 #### The default URL for Zabbix UI when using Apache web server is http://host/zabbix
 
