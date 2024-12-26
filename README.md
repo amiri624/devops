@@ -1,4 +1,2 @@
-# devops
-
-meisam
-amiri
+# devop
+~~MeisamAmiri~~
