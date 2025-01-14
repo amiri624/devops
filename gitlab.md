@@ -1,13 +1,13 @@
 # How to install Gitlab on a Linux server
 
 ```bash
-https://packages.gitlab.com/gitlab/gitlab-ce
+$ https://packages.gitlab.com/gitlab/gitlab-ce
 ```
 ```bash
-gitlab-ce-17.3.6-ce.0.el7.x86_64.rpm
+$ gitlab-ce-17.3.6-ce.0.el7.x86_64.rpm
 ```
 ```bash
-sudo dpkg -i  gitlab-ce-17.3.6-ce.0.el7.x86_64.rpm
+$ sudo dpkg -i  gitlab-ce-17.3.6-ce.0.el7.x86_64.rpm
 ```
 ```bash
 sudo apt update
